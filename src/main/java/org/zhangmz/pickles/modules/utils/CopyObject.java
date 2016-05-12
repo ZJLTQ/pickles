@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
  *
  */
 public class CopyObject {
-	public Object copy(Object object) throws Exception
+	public static Object copy(Object object) throws Exception
 	{
 	Class<?> classType = object.getClass();
 	//先调用Class类的getConstructor()方法获得一个Constructor 对象，它代表默认的构造方法，然后调用
